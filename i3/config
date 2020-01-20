@@ -29,7 +29,7 @@ for_window [class="^.*"] border pixel 0
 
 # Compton
 # Shadows + corners
-exec --no-startup-id compton --corner-radius 15
+exec --no-startup-id compton -b
 
 # Gaps
 gaps outer 35
